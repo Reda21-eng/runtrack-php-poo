@@ -1,4 +1,4 @@
-<?php
+<?php 
 class Personne {
     public $age = 14;
 
