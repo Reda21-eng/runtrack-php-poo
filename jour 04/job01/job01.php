@@ -4,6 +4,6 @@ class Personne
 public $age =14;
 
 afficher age ();
-echo($age) :14g;
+echo($age) 14;
 }
 ?>
