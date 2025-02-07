@@ -87,7 +87,7 @@ if (isset($_GET['move']) && $_SESSION['winner'] === null) {
 
 <?php if ($_SESSION['winner'] !== null) : ?>
     <div class="winner">Le gagnant est : <?= $_SESSION['winner'] ?></div>
-    <a href="morpion.php">Recommencer le jeu</a>
+    <a href="morpion1.php">Recommencer le jeu</a>
 <?php else : ?>
     <div class="winner">Tour du joueur <?= $_SESSION['turn'] ?></div>
 <?php endif; ?>
